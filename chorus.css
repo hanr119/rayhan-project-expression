@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Dripping Cool";
+    src: url("./assets/DrippingCool.woff") format("woff"); 
+  }
+
+  @font-face {
+    font-family: "Winkle";
+    src: url("./assets/Winkle-Regular.woff") format("woff"); 
+  }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #cceeff;
+    }
+
+.title {
+    font-family: Dripping Cool;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    color: #ff00a0;
+  }
+
+a {
+  color: #ff00a0;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.brokenscreen {
+  border-radius: 70px;
+  opacity: 0.3;
+  filter: saturate(var(--value, 5));
+}
+
+.lyrics {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: Winkle;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffaaff;
+    -webkit-text-stroke: 0.05rem black;
+    text-align: left;
+}
+
+.read {
+    font-size: 2em;
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke: 0;
+  }
+
+.leave {
+  font-family: Winkle;
+  color: #ffaaff;
+  font-size: 5rem;
+  align-items: right;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: black;
+  width: fit-content;
+  float: right;
+
+}
+
+.leave:hover{
+  color: red;
+}
+
+.leave:active{
+  color: black;
+}
