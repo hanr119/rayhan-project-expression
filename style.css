@@ -94,6 +94,10 @@
     text-decoration: none;
   }
 
+  #container {
+    text-align: center;
+  }
+
   @keyframes type {
     0% {
       opacity: 0;
