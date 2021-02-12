@@ -71,14 +71,13 @@ a {
   background-color: black;
   width: fit-content;
   float: right;
-
 }
 
-.leave:hover{
+.leave a:hover{
   color: red;
 }
 
-.leave:active{
+.leave a:active{
   color: black;
 }
 
